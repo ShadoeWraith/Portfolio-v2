@@ -41,7 +41,7 @@
 
 .about-content h5 {
   font-size: 1.25rem;
-  max-width: 50%;
+  max-width: 60%;
 }
 
 .about-image {
@@ -49,6 +49,7 @@
   opacity: 35%;
   border-radius: 1rem;
   transition: 300ms;
+  margin-left: 2rem;
 }
 
 .about-image:hover {
