@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Portfolio-v2/static/css/main.8b4ea622.css",
-    "main.js": "/Portfolio-v2/static/js/main.813f3efd.js",
+    "main.js": "/Portfolio-v2/static/js/main.806ff0ab.js",
     "static/media/tranquility.jpg": "/Portfolio-v2/static/media/tranquility.5e3bae3207d6419f3c0c.jpg",
     "static/media/selfie.jpg": "/Portfolio-v2/static/media/selfie.f772fdc22bc16e99a2a2.jpg",
     "static/media/CounselorReservation.jpg": "/Portfolio-v2/static/media/CounselorReservation.eac1e056cc3451986876.jpg",
     "static/media/ParkPlace.jpg": "/Portfolio-v2/static/media/ParkPlace.20280303e0f560a91450.jpg",
     "static/media/AirPollution.jpg": "/Portfolio-v2/static/media/AirPollution.68744d9c27854770ca23.jpg",
-    "static/media/Resume.pdf": "/Portfolio-v2/static/media/Resume.8215e0525ce44d3be135.pdf",
+    "static/media/Resume.pdf": "/Portfolio-v2/static/media/Resume.0794ee7f74da2062ae6c.pdf",
     "index.html": "/Portfolio-v2/index.html",
     "main.8b4ea622.css.map": "/Portfolio-v2/static/css/main.8b4ea622.css.map",
-    "main.813f3efd.js.map": "/Portfolio-v2/static/js/main.813f3efd.js.map"
+    "main.806ff0ab.js.map": "/Portfolio-v2/static/js/main.806ff0ab.js.map"
   },
   "entrypoints": [
     "static/css/main.8b4ea622.css",
-    "static/js/main.813f3efd.js"
+    "static/js/main.806ff0ab.js"
   ]
 }
