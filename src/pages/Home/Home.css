@@ -1,6 +1,5 @@
 .home-wrapper {
   min-height: 100vh;
-  min-width: 100vw;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
