@@ -37,20 +37,20 @@ export default function Card() {
   return (
     <div className='card-wrapper'>
       {cardData.map((data) => (
-        <a className='card' href={data.deployed}>
+        <div className='card' href={data.deployed} key={data.title}>
           <div className='card-image'>
             <img className='image' src={data.image} alt={data.image} />
           </div>
           <div className='card-footer'>
             <h4>{data.title}</h4>
-            <span>
+            <a className='card-deploy' href={data.deployed}>
               Show Project{' '}
-              <a className='card-github' href={data.github}>
-                <img src={github} alt={data.title} />
-              </a>
-            </span>
+            </a>
+            <a className='card-github' href={data.github}>
+              <img src={github} alt={data.title} />
+            </a>
           </div>
-        </a>
+        </div>
       ))}
     </div>
   );

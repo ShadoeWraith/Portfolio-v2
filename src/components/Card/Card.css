@@ -27,7 +27,12 @@
   transform: scale(1.1);
 }
 
-.card:hover span {
+.card-deploy {
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+.card-deploy:hover {
   color: rgb(114, 114, 240);
 }
 
