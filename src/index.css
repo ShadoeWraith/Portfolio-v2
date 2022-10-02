@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: Consolas; 
+}
+
+:root {
+  --background-Color: rgb(37, 37, 41);
+  --text-Color: white;
+}
+
+body {
+  background-color: var(--background-Color);
+  color: var(--text-Color);
+}
+
+a {
+  color: var(--text-Color)
+}
+
+@keyframes backgroundColorChange {
+  0% {background-color: #7272f0}
+  33%{background-color: rgb(214, 214, 134)}
+  66%{background-color: rgb(75, 204, 75)}
+  100%{background-color: rgb(114, 114, 240)}
+}

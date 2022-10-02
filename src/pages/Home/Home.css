@@ -1,0 +1,71 @@
+.home-wrapper {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgb(37, 37, 41);
+  background-image: linear-gradient(45deg, rgb(37, 37, 41), rgb(83, 83, 112));
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.home-content-wrapper {
+  text-transform: uppercase;
+  margin-bottom: 10rem;
+  margin-left: 20rem;
+  position: relative;
+}
+
+.home-header {
+  font-size: 6rem;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  text-align: start;
+  animation: colorChange 15s infinite;
+}
+
+.arrow {
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  animation: bounce 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  filter: invert(91%) sepia(9%) saturate(157%) hue-rotate(340deg) brightness(94%) contrast(92%);
+}
+
+.arrow:hover {
+  cursor: pointer;
+  filter: invert(45%) sepia(46%) saturate(854%) hue-rotate(202deg) brightness(98%) contrast(92%);
+}
+
+@keyframes colorChange {
+  0% {color: rgb(114, 114, 240)}
+  33%{color:rgb(214, 214, 134)}
+  66%{color:rgb(75, 204, 75)}
+  100%{color:rgb(114, 114, 240)}
+}
+
+@keyframes bounce {
+  from {transform: translate3d(0, 0, 0);}
+  to {transform: translate3d(0, 1.5rem, 0);}
+}
+
+
+@media screen and (max-width: 800px){
+  .home-content-wrapper {
+    margin-left: 0;
+  }
+
+  .home-header {
+    font-size: 4rem;
+    
+  }
+
+  .home-title {
+    font-size: 1.25rem;
+  }
+}

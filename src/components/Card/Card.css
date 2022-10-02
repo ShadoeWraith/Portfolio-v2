@@ -1,0 +1,51 @@
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  z-index: 1;
+}
+
+.card{
+  background-color: rgb(49, 49, 53);
+  border-radius: .25rem;
+  overflow: hidden;
+}
+
+.card-image {
+  overflow: hidden;
+}
+
+.card-image .image{
+  width: 35rem;
+  border-radius: .25rem;
+  transition: 300ms all ease-in-out;
+}
+
+.card:hover .image{
+  transform: scale(1.1);
+}
+
+.card:hover span {
+  color: rgb(114, 114, 240);
+}
+
+.card-footer {
+  margin: 1rem 3rem;
+  position: relative;
+}
+
+.card-footer h4 {
+  font-size: 1.5rem;
+}
+
+.card-github {
+  position: absolute;
+  filter: invert(91%) sepia(9%) saturate(157%) hue-rotate(340deg) brightness(94%) contrast(92%);
+  right: -2rem;
+  top: -.5rem;
+}
+
+.card-github:hover {
+  filter: invert(45%) sepia(46%) saturate(854%) hue-rotate(202deg) brightness(98%) contrast(92%);
+}

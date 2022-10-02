@@ -1,0 +1,30 @@
+.section-wrapper {
+  margin: 2rem 10rem;
+  padding-top: 4rem;
+}
+
+.section-title {
+  margin-left: 13rem;
+  margin-bottom: .5rem;
+}
+
+.section-wrapper span {
+  font-size: 1.25rem;
+  color: rgb(149, 151, 153);
+}
+
+.project-section-header{
+  font-size: 2rem;
+  position: relative;
+  width: fit-content;
+}
+
+.project-section-header::after{
+  content: '';
+  height: .1rem;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  animation: backgroundColorChange 15s infinite;
+}
