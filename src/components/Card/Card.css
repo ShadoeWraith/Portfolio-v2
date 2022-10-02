@@ -3,7 +3,8 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 3rem;
-  z-index: 1;
+  max-width: 75%;
+  margin: auto;
 }
 
 .card{

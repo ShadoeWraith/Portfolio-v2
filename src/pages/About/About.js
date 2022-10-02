@@ -8,17 +8,19 @@ export default function About() {
         <h2 className='about-header'>About Me</h2>
       </div>
       <div className='about-content'>
-        <p>
-          Front end web developer learning new technologies to better improve my
-          ability to create well maintainable web apps. I think creatively and
-          logically when creating web apps to best suit the overall user
-          experience.
+        <div>
+          <p>
+            Front end web developer learning new technologies to better improve
+            my ability to create well maintainable web apps. I think creatively
+            and logically when creating web apps to best suit the overall user
+            experience.
+          </p>
           <h4>Skills:</h4>
           <h5>
             HTML, CSS, JavaScript, JQuery, React.js, Bootstrap, TailWindCSS,
             Node.js
           </h5>
-        </p>
+        </div>
         <img className='about-image' src={selfie} alt='selfie' />
       </div>
     </section>
