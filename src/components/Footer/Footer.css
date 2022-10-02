@@ -1,18 +1,51 @@
-.footer {
-  height: 150px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+.footer { 
   background-color: rgb(27, 27, 29);
 }
 
-.footer-content img{
-  filter: invert(91%) sepia(9%) saturate(157%) hue-rotate(340deg) brightness(94%) contrast(92%);
-  margin: 0 1.2rem;
+.footer-content{
+  min-height: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
-.footer-content img:hover {
-  filter: invert(45%) sepia(46%) saturate(854%) hue-rotate(202deg) brightness(98%) contrast(92%);
+.footer-credit {
+  margin-left: auto;
+  font-size: 1.25rem;
+}
+
+.footer-links {
+  margin-left: auto;
+  font-size: 1.25rem;
+  margin-right: auto;
+  display: flex;
+  gap: 2rem;
+  text-transform: uppercase;
+}
+
+.link-item{
+  position: relative;
+}
+
+.link-item:hover {
+  cursor: pointer;
+  transition: 300ms;
+  color: rgb(114, 114, 240);
+}
+
+.link-item::after {
+  content: "";
+  position: absolute;
+  left: -.75rem;
+  height: 100%;
+  width: .1rem;
+  background-color: white;
+  transform-origin: center;
+  transform: scale(0);
+  transition: 300ms;
+}
+
+.link-item:hover::after {
+  transform: scale(1);
+  background-color: rgb(114, 114, 240);
 }

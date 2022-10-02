@@ -13,6 +13,7 @@ export default function Card() {
       image: AirPollution,
       github: 'https://github.com/Callank21/group-project',
       deployed: 'https://callank21.github.io/group-project/index.html',
+      technology: ['HTML,', ' JavaScript,', ' TailwindCSS,', ' REST API'],
     },
     {
       title: 'Park Place',
@@ -20,18 +21,34 @@ export default function Card() {
       github:
         'https://github.com/SalvadorBanuelos424/Park-Place-master-planned-community',
       deployed: 'https://park-place-association.herokuapp.com/',
+      technology: [
+        'Handlebars,',
+        ' JavaScript,',
+        ' TailwindCSS,',
+        ' MySQL,',
+        ' Express.js',
+      ],
     },
     {
       title: 'Counselor Reservation',
       image: CounselorReservation,
       github: 'https://github.com/uhMammoth/school-website',
       deployed: 'https://mern-school-website.herokuapp.com/',
+      technology: [
+        'HTML,',
+        ' CSS,',
+        ' JavaScript,',
+        ' React.js,',
+        ' MongoDB,',
+        ' GraphQL',
+      ],
     },
     {
       title: 'FFXIV Tranquility',
       image: tranquility,
       github: 'https://github.com/ShadoeWraith/tranquility',
       deployed: 'https://shadoewraith.github.io/tranquility/',
+      technology: ['HTML,', ' CSS,', ' JavaScript,', ' React.js,', ' REST API'],
     },
   ];
   return (
@@ -42,6 +59,7 @@ export default function Card() {
             <img className='image' src={data.image} alt={data.image} />
           </div>
           <div className='card-footer'>
+            <span className='card-tech'>{data.technology}</span>
             <h4>{data.title}</h4>
             <a className='card-deploy' href={data.deployed}>
               Show Project{' '}

@@ -1,19 +1,28 @@
 import './Footer.css';
-
-import github from '../../assets/github.jpg';
-import linkedin from '../../assets/linkedin.jpg';
+import resume from '../../assets/documents/Resume.pdf';
 
 export default function Footer() {
   return (
     <footer className='footer'>
       <div className='footer-content'>
-        <a href='https://github.com/ShadoeWraith'>
-          <img src={github} alt='github' />
-        </a>
-        <a href='https://www.linkedin.com/in/shaun-kiszonas-064802228/'>
-          <img src={linkedin} alt='linkedin' />
-        </a>
-        <h3>Made by Shaun Kiszonas 2022</h3>
+        <h3 className='footer-credit'>Made by Shaun Kiszonas 2022</h3>
+        <div className='footer-links'>
+          <a className='link-item' href='https://github.com/ShadoeWraith'>
+            GitHub
+          </a>
+          <a
+            className='link-item'
+            href='https://www.linkedin.com/in/shaun-kiszonas-064802228/'
+          >
+            Linkedin
+          </a>
+          <a className='link-item' href={resume} target='_blank'>
+            Resume
+          </a>
+          <a className='link-item' href='mailto:skiszonas99@gmail.com'>
+            email
+          </a>
+        </div>
       </div>
     </footer>
   );

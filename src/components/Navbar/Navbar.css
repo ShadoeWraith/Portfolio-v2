@@ -28,6 +28,7 @@
 
 .nav-item{
   position: relative;
+  text-transform: uppercase;
 }
 
 .nav-item:hover {
