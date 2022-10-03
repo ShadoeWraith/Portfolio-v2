@@ -54,17 +54,27 @@
 }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
   .home-content-wrapper {
     margin-left: 0;
   }
 
   .home-header {
     font-size: 4rem;
-    
+    max-width: 50%;
   }
 
   .home-title {
     font-size: 1.25rem;
+  }
+
+  .arrow {
+    position: absolute;
+    left: 45%;
+    bottom: 5%;
+    animation: bounce 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    filter: invert(91%) sepia(9%) saturate(157%) hue-rotate(340deg) brightness(94%) contrast(92%);
   }
 }

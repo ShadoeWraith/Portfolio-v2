@@ -61,12 +61,14 @@ export default function Card() {
           <div className='card-footer'>
             <span className='card-tech'>{data.technology}</span>
             <h4>{data.title}</h4>
-            <a className='card-deploy' href={data.deployed}>
-              Show Project{' '}
-            </a>
-            <a className='card-github' href={data.github}>
-              <img src={github} alt={data.title} />
-            </a>
+            <div className='card-links'>
+              <a className='card-deploy' href={data.deployed}>
+                Show Project{' '}
+              </a>
+              <a className='card-github' href={data.github}>
+                GitHub
+              </a>
+            </div>
           </div>
         </div>
       ))}

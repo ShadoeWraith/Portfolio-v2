@@ -49,3 +49,21 @@
   transform: scale(1);
   background-color: rgb(114, 114, 240);
 }
+
+@media screen and (max-width:1600px) {
+  .footer-content{
+    gap: 4rem;
+    display: block;
+    text-align: center;
+  }
+  
+  .footer-links {
+    flex-direction: row;
+    font-size: 1.1rem;
+    gap: 0;
+  }
+  .link-item {
+    margin: auto;
+    margin-top: .5rem;
+  }
+}

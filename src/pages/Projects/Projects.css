@@ -28,3 +28,23 @@
   bottom: 0;
   animation: backgroundColorChange 15s infinite;
 }
+
+@media screen and (max-width: 1600px){
+  .section-wrapper {
+    margin: 1rem 0;
+    padding-top: 4rem;
+  }
+  
+  .section-title {
+    margin-left: 0;
+    margin-bottom: .5rem;
+    text-align: center;
+  }
+
+  .project-section-header{
+    font-size: 2rem;
+    margin: auto;
+    position: relative;
+    width: fit-content;
+  }
+}

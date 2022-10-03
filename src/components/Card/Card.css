@@ -55,13 +55,30 @@
   margin-top: 2rem;
 }
 
+.card-links {
+  display: flex;
+}
+
 .card-github {
-  position: absolute;
-  filter: invert(91%) sepia(9%) saturate(157%) hue-rotate(340deg) brightness(94%) contrast(92%);
-  right: 0;
-  top: -.5rem;
+  margin-left: auto;
+  font-size: 1.2rem;
+  color: rgb(137, 137, 148);
+  text-decoration: underline;
 }
 
 .card-github:hover {
-  filter: invert(45%) sepia(46%) saturate(854%) hue-rotate(202deg) brightness(98%) contrast(92%);
+  color: rgb(114, 114, 240);
+}
+
+@media screen and (max-width: 1600px){
+  .card-wrapper {
+    max-width: 90%;
+  }
+  .card-footer .card-tech {
+    font-size: .9rem;
+  }
+  .card-footer h4 {
+    font-size: 1.2rem;
+  }
+  
 }

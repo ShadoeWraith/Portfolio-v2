@@ -25,7 +25,6 @@
   display: flex;
   font-size: 2rem;
   padding: 1rem;
-  border-width: 3px;
   max-width: 60%;
   margin-left: 22rem;
 }
@@ -55,4 +54,38 @@
 
 .about-image:hover {
   opacity: 1;
+}
+
+
+@media screen and (max-width: 1600px){
+  .about-section {
+    margin: 0;
+    padding-top: 4rem;
+  }
+  
+  .section-header{
+    margin: auto;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .about-content {
+    margin-left: 0rem;
+    font-size: 1.2rem;
+    flex-direction: column;
+    min-width: 100%;
+    padding: .1rem;
+    flex-wrap: wrap;
+  }
+
+  .about-content h5 {
+    font-size: 1rem;
+    max-width: 80%;
+  }
+
+  .about-image {
+    opacity: 1;
+    margin: auto;
+    margin-top: 1rem;
+  }
 }
