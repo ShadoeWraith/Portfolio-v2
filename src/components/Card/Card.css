@@ -20,6 +20,8 @@
 .card-image .image{
   width: 35rem;
   border-radius: .25rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
   transition: 300ms all ease-in-out;
 }
 
