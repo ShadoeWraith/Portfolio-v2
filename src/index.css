@@ -21,8 +21,14 @@ a {
   color: var(--text-Color)
 }
 
+.loading {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
 @keyframes backgroundColorChange {
-  0% {background-color: #7272f0}
+  0% {background-color: rgb(114, 114, 240)}
   33%{background-color: rgb(214, 214, 134)}
   66%{background-color: rgb(75, 204, 75)}
   100%{background-color: rgb(114, 114, 240)}
