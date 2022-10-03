@@ -3,6 +3,7 @@ import ParkPlace from '../../assets/ParkPlace.jpg';
 import CounselorReservation from '../../assets/CounselorReservation.jpg';
 import tranquility from '../../assets/tranquility.jpg';
 import landingpage from '../../assets/Landing-Page.jpg';
+import portfolioV1 from '../../assets/Portfolio_v1.jpg';
 
 import './Card.css';
 
@@ -21,6 +22,13 @@ export default function Card() {
       github: 'https://github.com/ShadoeWraith/landing-page',
       deployed: 'https://shadoewraith.github.io/landing-page/',
       technology: ['HTML,', ' CSS,', ' Bootstrap'],
+    },
+    {
+      title: 'Portfolio v1',
+      image: portfolioV1,
+      github: 'https://github.com/ShadoeWraith/Portfolio',
+      deployed: 'https://shadoewraith.github.io/Portfolio/',
+      technology: ['HTML,', ' CSS,', ' JavaScript,', ' React.js'],
     },
     {
       title: 'Counselor Reservation',
