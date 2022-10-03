@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-v2/static/css/main.c1434a53.css",
+    "main.css": "/Portfolio-v2/static/css/main.c8b1089e.css",
     "main.js": "/Portfolio-v2/static/js/main.be897c62.js",
     "static/media/selfie.jpg": "/Portfolio-v2/static/media/selfie.f772fdc22bc16e99a2a2.jpg",
     "static/media/AirPollution.jpg": "/Portfolio-v2/static/media/AirPollution.d0260a124fe5876b8a1e.jpg",
@@ -10,11 +10,11 @@
     "static/media/CounselorReservation.jpg": "/Portfolio-v2/static/media/CounselorReservation.ce8a1f20f9096c1e5db4.jpg",
     "static/media/Resume.pdf": "/Portfolio-v2/static/media/Resume.a83f29df7e11113bcdd9.pdf",
     "index.html": "/Portfolio-v2/index.html",
-    "main.c1434a53.css.map": "/Portfolio-v2/static/css/main.c1434a53.css.map",
+    "main.c8b1089e.css.map": "/Portfolio-v2/static/css/main.c8b1089e.css.map",
     "main.be897c62.js.map": "/Portfolio-v2/static/js/main.be897c62.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1434a53.css",
+    "static/css/main.c8b1089e.css",
     "static/js/main.be897c62.js"
   ]
 }
