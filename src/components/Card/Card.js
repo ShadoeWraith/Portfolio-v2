@@ -21,7 +21,7 @@ export default function Card() {
       image: weatherApp,
       github: 'https://github.com/ShadoeWraith/Weather-Dashboard',
       deployed: 'https://shadoewraith.github.io/Weather-Dashboard/',
-      technology: ['HTML,', ' CSS,', ' JavaScript'],
+      technology: ['HTML,', ' CSS,', ' JavaScript,', ' REST API'],
     },
     {
       title: 'Landing Page',
