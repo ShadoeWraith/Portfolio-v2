@@ -1,9 +1,9 @@
-import AirPollution from '../../assets/AirPollution.jpg';
 import ParkPlace from '../../assets/ParkPlace.jpg';
 import CounselorReservation from '../../assets/CounselorReservation.jpg';
 import tranquility from '../../assets/tranquility.jpg';
 import landingpage from '../../assets/Landing-Page.jpg';
 import portfolioV1 from '../../assets/Portfolio_v1.jpg';
+import weatherApp from '../../assets/WeatherDashboard.JPG';
 
 import './Card.css';
 
@@ -15,6 +15,13 @@ export default function Card() {
       github: 'https://github.com/ShadoeWraith/tranquility',
       deployed: 'https://shadoewraith.github.io/tranquility/',
       technology: ['HTML,', ' CSS,', ' JavaScript,', ' React.js,', ' REST API'],
+    },
+    {
+      title: 'Simple Weather App',
+      image: weatherApp,
+      github: 'https://github.com/ShadoeWraith/Weather-Dashboard',
+      deployed: 'https://shadoewraith.github.io/Weather-Dashboard/',
+      technology: ['HTML,', ' CSS,', ' JavaScript'],
     },
     {
       title: 'Landing Page',
@@ -57,13 +64,6 @@ export default function Card() {
         ' MySQL,',
         ' Express.js',
       ],
-    },
-    {
-      title: 'Air Quality',
-      image: AirPollution,
-      github: 'https://github.com/Callank21/group-project',
-      deployed: 'https://callank21.github.io/group-project/index.html',
-      technology: ['HTML,', ' JavaScript,', ' TailwindCSS,', ' REST API'],
     },
   ];
   return (
