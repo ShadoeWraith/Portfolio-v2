@@ -1,4 +1,4 @@
-import ParkPlace from '../../assets/ParkPlace.jpg';
+import virtualKeyboard from '../../assets/virtualKeyboard.JPG';
 import CounselorReservation from '../../assets/CounselorReservation.jpg';
 import tranquility from '../../assets/tranquility.jpg';
 import landingpage from '../../assets/Landing-Page.jpg';
@@ -15,6 +15,13 @@ export default function Card() {
       github: 'https://github.com/ShadoeWraith/tranquility',
       deployed: 'https://shadoewraith.github.io/tranquility/',
       technology: ['HTML,', ' CSS,', ' JavaScript,', ' React.js,', ' REST API'],
+    },
+    {
+      title: 'Virtual Keyboard (Desktop Only)',
+      image: virtualKeyboard,
+      github: 'https://github.com/ShadoeWraith/Virtual-Keyboard',
+      deployed: 'https://shadoewraith.github.io/Virtual-Keyboard/',
+      technology: ['HTML,', ' CSS,', ' JavaScript,'],
     },
     {
       title: 'Simple Weather App',
@@ -37,6 +44,7 @@ export default function Card() {
       deployed: 'https://shadoewraith.github.io/Portfolio/',
       technology: ['HTML,', ' CSS,', ' JavaScript,', ' React.js'],
     },
+
     {
       title: 'Counselor Reservation',
       image: CounselorReservation,
@@ -49,20 +57,6 @@ export default function Card() {
         ' React.js,',
         ' MongoDB,',
         ' GraphQL',
-      ],
-    },
-    {
-      title: 'Park Place',
-      image: ParkPlace,
-      github:
-        'https://github.com/SalvadorBanuelos424/Park-Place-master-planned-community',
-      deployed: 'https://park-place-association.herokuapp.com/',
-      technology: [
-        'Handlebars,',
-        ' JavaScript,',
-        ' TailwindCSS,',
-        ' MySQL,',
-        ' Express.js',
       ],
     },
   ];
