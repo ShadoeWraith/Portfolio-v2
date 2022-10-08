@@ -21,7 +21,7 @@ export default function Card() {
       image: virtualKeyboard,
       github: 'https://github.com/ShadoeWraith/Virtual-Keyboard',
       deployed: 'https://shadoewraith.github.io/Virtual-Keyboard/',
-      technology: ['HTML,', ' CSS,', ' JavaScript,'],
+      technology: ['HTML,', ' CSS,', ' JavaScript'],
     },
     {
       title: 'Simple Weather App',
