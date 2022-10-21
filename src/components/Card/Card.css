@@ -5,6 +5,7 @@
   gap: 3rem;
   max-width: 75%;
   margin: auto;
+  margin-bottom: 3rem;
 }
 
 .card{
@@ -70,6 +71,30 @@
 
 .card-github:hover {
   color: rgb(114, 114, 240);
+}
+
+.button-wrapper {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+}
+
+.viewBtn {
+  padding: 0 2.5rem;
+  width: 20%;
+  font-size: 1.25rem;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: .25rem;
+  cursor: pointer;
+  color: white;
+  transition: 300ms;
+  margin: auto;
+}
+
+.viewBtn:hover {
+  background-color: rgb(114, 114, 240);
+  color: black;
 }
 
 @media screen and (max-width: 1600px){
