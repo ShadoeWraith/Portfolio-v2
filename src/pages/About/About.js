@@ -21,13 +21,16 @@ export default function About() {
             <div className='front-end'>
               <h4>Front-End</h4>
               <ul>
-                <li>HTML, CSS, JavaScript, JQuery, React.js, Vue.js</li>
+                <li>
+                  HTML, CSS, JavaScript, JQuery, React.js, Vue.js, Bootstrap,
+                  TailWindCSS
+                </li>
               </ul>
             </div>
             <div className='back-end'>
               <h4>Back-End</h4>
               <ul>
-                <li>Node.js, Firebsae, MySQL, MongoDB, GraphQL</li>
+                <li>Node.js, Firebase, MySQL, MongoDB, GraphQL</li>
               </ul>
             </div>
           </div>
