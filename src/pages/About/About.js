@@ -15,11 +15,22 @@ export default function About() {
             and logically when creating web apps to best suit the overall user
             experience.
           </p>
-          <h4>Skills:</h4>
-          <h5>
-            HTML, CSS, JavaScript, JQuery, React.js, Bootstrap, TailWindCSS,
-            Node.js, MySQL
-          </h5>
+
+          <h3>Skills:</h3>
+          <div className='skills'>
+            <div className='front-end'>
+              <h4>Front-End</h4>
+              <ul>
+                <li>HTML, CSS, JavaScript, JQuery, React.js, Vue.js</li>
+              </ul>
+            </div>
+            <div className='back-end'>
+              <h4>Back-End</h4>
+              <ul>
+                <li>Node.js, Firebsae, MySQL, MongoDB, GraphQL</li>
+              </ul>
+            </div>
+          </div>
         </div>
         <img className='about-image' src={selfie} alt='selfie' />
       </div>

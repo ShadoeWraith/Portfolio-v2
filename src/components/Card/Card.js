@@ -40,6 +40,9 @@ export default function Card() {
       deployed: 'https://shadoewraith.github.io/landing-page/',
       technology: ['HTML,', ' CSS,', ' Bootstrap'],
     },
+  ];
+
+  const secondaryCardData = [
     {
       title: 'Portfolio v1',
       image: portfolioV1,
@@ -62,9 +65,6 @@ export default function Card() {
         ' GraphQL',
       ],
     },
-  ];
-
-  const secondaryCardData = [
     {
       title: 'Park Place',
       image: ParkPlace,
