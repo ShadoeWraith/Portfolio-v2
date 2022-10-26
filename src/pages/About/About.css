@@ -37,24 +37,34 @@
 .about-content h3 {
   margin-top: 2rem;
   color: rgb(114, 114, 240);
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 
 .about-content ul {
   font-size: 1.25rem;
-  max-width: 80%;
 }
 
 .skills {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  gap: 1rem;
 }
 
 .skills div {
-  width: 40%;
+  width: 50%;
 }
 
 .skills h4 {
   color: rgb(114, 240, 141);
+  text-align: center;
+}
+
+.skills ul {
+  text-align: center;
 }
 
 .about-image {
@@ -84,10 +94,6 @@
 
   h3 {
     text-align: center;
-  }
-
-  .skills {
-    justify-content: center;
   }
 
   .about-content {

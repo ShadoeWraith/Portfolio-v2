@@ -16,7 +16,7 @@ export default function About() {
             experience.
           </p>
 
-          <h3>Skills:</h3>
+          <h3>Skills</h3>
           <div className='skills'>
             <div className='front-end'>
               <h4>Front-End</h4>
@@ -35,7 +35,6 @@ export default function About() {
             </div>
           </div>
         </div>
-        <img className='about-image' src={selfie} alt='selfie' />
       </div>
     </section>
   );
