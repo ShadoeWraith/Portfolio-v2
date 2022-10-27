@@ -22,7 +22,7 @@ export default function About() {
               <h4>Front-End</h4>
               <ul>
                 <li>
-                  HTML, CSS, JavaScript, JQuery, React.js, Vue.js, Bootstrap,
+                  HTML, CSS, JavaScript, JQuery, React.js, Bootstrap,
                   TailWindCSS
                 </li>
               </ul>
