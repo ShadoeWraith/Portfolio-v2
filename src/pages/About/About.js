@@ -10,7 +10,7 @@ export default function About() {
       <div className='about-content'>
         <div>
           <p>
-            Full-Stack web developer learning new technologies to better improve
+            Front-End web developer learning new technologies to better improve
             my ability to create well maintainable web apps. I think creatively
             and logically when creating web apps to best suit the overall user
             experience.
