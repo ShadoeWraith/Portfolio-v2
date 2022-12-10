@@ -17,7 +17,7 @@ export default function Home() {
         ></TypeAnimation>
         <TypeAnimation
           className='home-title'
-          sequence={[2000, '// Front-End Web Developer']}
+          sequence={[2000, '// Fullstack Web Developer']}
           wrapper='h2'
           cursor={false}
           speed={25}
